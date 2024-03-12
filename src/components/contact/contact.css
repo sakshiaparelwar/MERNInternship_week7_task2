@@ -1,0 +1,42 @@
+#contact_container {
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(203, 208, 206);
+  padding: 30px;
+  max-width: 500px;
+  margin: 30px auto;
+  box-shadow: 4px 5px 10px grey;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+input {
+  width: 500px;
+  border: none;
+  padding: 6px;
+  margin: 10px 0;
+}
+
+label {
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+#submit {
+  cursor: pointer;
+  width: 100px;
+  margin: 20px auto;
+  background-color: black;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 7px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#submit:hover {
+  background-color: red;
+}
