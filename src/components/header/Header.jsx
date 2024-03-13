@@ -1,22 +1,23 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <div className="navbar">
-        <a href="/" id="title">
+        <Link to="/" id="title">
           Travel<span>era</span>
-        </a>
+        </Link>
         <ul className="nav_links">
           <li>
-            <a href="/home">Home</a>
+            <Link to="/home">Home</Link>
           </li>
           <li>
-            <a href="/destination">Destinations</a>
+            <Link to="/destination">Destinations</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
