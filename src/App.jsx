@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import DestinationsSection from "./components/destination/DestinationsSection";
-import ContactForm from "./components/contact/ContactForm";
+import Destinations from "./components/destination/Destinations";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/destination" element={<DestinationsSection />} />
-          <Route path="/contact" element={<ContactForm />} />
+          <Route path="/destination" element={<Destinations />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>
